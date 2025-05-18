@@ -4,7 +4,7 @@
 
 Sebuah aplikasi kalkulator dasar yang dibangun menggunakan Visual Basic .NET (VB.NET) dengan antarmuka yang intuitif dan fungsionalitas operasi aritmetika standar.
 
-## 📜 Kutipan Inspiratif
+## 📜 Kutipan
 
 > *"Aku tidak berilmu; yang berilmu hanyalah DIA. Jika tampak ilmu dariku, itu hanyalah pantulan dari Cahaya-Nya."*
 
