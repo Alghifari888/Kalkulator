@@ -15,9 +15,3 @@ Project ini adalah aplikasi kalkulator sederhana menggunakan Visual Basic .NET (
 
 ---
 
-## Cara Menjalankan
-
-1. Clone repository ini ke komputer kamu:
-
-   ```bash
-   git clone https://github.com/username/vbnet-kalkulator.git
