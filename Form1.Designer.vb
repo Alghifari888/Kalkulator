@@ -24,21 +24,21 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.btn0 = New System.Windows.Forms.Button()
         Me.btn1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
+        Me.btn2 = New System.Windows.Forms.Button()
+        Me.btn3 = New System.Windows.Forms.Button()
+        Me.btn4 = New System.Windows.Forms.Button()
+        Me.btn5 = New System.Windows.Forms.Button()
+        Me.btn6 = New System.Windows.Forms.Button()
+        Me.btn7 = New System.Windows.Forms.Button()
+        Me.btn8 = New System.Windows.Forms.Button()
+        Me.btnMultiply = New System.Windows.Forms.Button()
         Me.txtDisplay = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
+        Me.btn9 = New System.Windows.Forms.Button()
+        Me.btnAdd = New System.Windows.Forms.Button()
+        Me.btnSubtract = New System.Windows.Forms.Button()
+        Me.btnDivide = New System.Windows.Forms.Button()
+        Me.btnEquals = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn0
@@ -59,159 +59,159 @@ Partial Class Form1
         Me.btn1.Text = "1"
         Me.btn1.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btn2
         '
-        Me.Button3.Location = New System.Drawing.Point(198, 47)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(84, 73)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btn2.Location = New System.Drawing.Point(198, 47)
+        Me.btn2.Name = "btn2"
+        Me.btn2.Size = New System.Drawing.Size(84, 73)
+        Me.btn2.TabIndex = 2
+        Me.btn2.Text = "2"
+        Me.btn2.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btn3
         '
-        Me.Button4.Location = New System.Drawing.Point(18, 126)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(84, 73)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btn3.Location = New System.Drawing.Point(288, 47)
+        Me.btn3.Name = "btn3"
+        Me.btn3.Size = New System.Drawing.Size(84, 73)
+        Me.btn3.TabIndex = 3
+        Me.btn3.Text = "3"
+        Me.btn3.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btn4
         '
-        Me.Button5.Location = New System.Drawing.Point(108, 126)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(84, 73)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btn4.Location = New System.Drawing.Point(18, 126)
+        Me.btn4.Name = "btn4"
+        Me.btn4.Size = New System.Drawing.Size(84, 73)
+        Me.btn4.TabIndex = 4
+        Me.btn4.Text = "4"
+        Me.btn4.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btn5
         '
-        Me.Button6.Location = New System.Drawing.Point(198, 126)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(84, 73)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btn5.Location = New System.Drawing.Point(108, 126)
+        Me.btn5.Name = "btn5"
+        Me.btn5.Size = New System.Drawing.Size(84, 73)
+        Me.btn5.TabIndex = 5
+        Me.btn5.Text = "5"
+        Me.btn5.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btn6
         '
-        Me.Button7.Location = New System.Drawing.Point(18, 205)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(84, 73)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Button7"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btn6.Location = New System.Drawing.Point(198, 126)
+        Me.btn6.Name = "btn6"
+        Me.btn6.Size = New System.Drawing.Size(84, 73)
+        Me.btn6.TabIndex = 6
+        Me.btn6.Text = "6"
+        Me.btn6.UseVisualStyleBackColor = True
         '
-        'Button8
+        'btn7
         '
-        Me.Button8.Location = New System.Drawing.Point(108, 205)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(84, 73)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Button8"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btn7.Location = New System.Drawing.Point(288, 126)
+        Me.btn7.Name = "btn7"
+        Me.btn7.Size = New System.Drawing.Size(84, 73)
+        Me.btn7.TabIndex = 7
+        Me.btn7.Text = "7"
+        Me.btn7.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btn8
         '
-        Me.Button9.Location = New System.Drawing.Point(198, 205)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(84, 73)
-        Me.Button9.TabIndex = 8
-        Me.Button9.Text = "Button9"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.btn8.Location = New System.Drawing.Point(18, 205)
+        Me.btn8.Name = "btn8"
+        Me.btn8.Size = New System.Drawing.Size(84, 73)
+        Me.btn8.TabIndex = 8
+        Me.btn8.Text = "8"
+        Me.btn8.UseVisualStyleBackColor = True
         '
-        'Button10
+        'btnMultiply
         '
-        Me.Button10.Location = New System.Drawing.Point(18, 363)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(84, 73)
-        Me.Button10.TabIndex = 9
-        Me.Button10.Text = "Button10"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btnMultiply.Location = New System.Drawing.Point(18, 282)
+        Me.btnMultiply.Name = "btnMultiply"
+        Me.btnMultiply.Size = New System.Drawing.Size(84, 73)
+        Me.btnMultiply.TabIndex = 9
+        Me.btnMultiply.Text = "*"
+        Me.btnMultiply.UseVisualStyleBackColor = True
         '
         'txtDisplay
         '
-        Me.txtDisplay.Location = New System.Drawing.Point(22, 12)
+        Me.txtDisplay.Location = New System.Drawing.Point(18, 12)
         Me.txtDisplay.Name = "txtDisplay"
-        Me.txtDisplay.Size = New System.Drawing.Size(264, 22)
+        Me.txtDisplay.Size = New System.Drawing.Size(354, 22)
         Me.txtDisplay.TabIndex = 10
         '
-        'Button1
+        'btn9
         '
-        Me.Button1.Location = New System.Drawing.Point(18, 284)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(84, 73)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btn9.Location = New System.Drawing.Point(108, 205)
+        Me.btn9.Name = "btn9"
+        Me.btn9.Size = New System.Drawing.Size(84, 73)
+        Me.btn9.TabIndex = 11
+        Me.btn9.Text = "9"
+        Me.btn9.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnAdd
         '
-        Me.Button2.Location = New System.Drawing.Point(108, 284)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(84, 73)
-        Me.Button2.TabIndex = 12
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnAdd.Location = New System.Drawing.Point(198, 205)
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(84, 73)
+        Me.btnAdd.TabIndex = 12
+        Me.btnAdd.Text = "+"
+        Me.btnAdd.UseVisualStyleBackColor = True
         '
-        'Button11
+        'btnSubtract
         '
-        Me.Button11.Location = New System.Drawing.Point(198, 284)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(84, 73)
-        Me.Button11.TabIndex = 13
-        Me.Button11.Text = "Button11"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btnSubtract.Location = New System.Drawing.Point(288, 205)
+        Me.btnSubtract.Name = "btnSubtract"
+        Me.btnSubtract.Size = New System.Drawing.Size(84, 73)
+        Me.btnSubtract.TabIndex = 13
+        Me.btnSubtract.Text = "-"
+        Me.btnSubtract.UseVisualStyleBackColor = True
         '
-        'Button12
+        'btnDivide
         '
-        Me.Button12.Location = New System.Drawing.Point(108, 363)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(84, 73)
-        Me.Button12.TabIndex = 14
-        Me.Button12.Text = "Button12"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.btnDivide.Location = New System.Drawing.Point(108, 282)
+        Me.btnDivide.Name = "btnDivide"
+        Me.btnDivide.Size = New System.Drawing.Size(84, 73)
+        Me.btnDivide.TabIndex = 14
+        Me.btnDivide.Text = "/"
+        Me.btnDivide.UseVisualStyleBackColor = True
         '
-        'Button13
+        'btnEquals
         '
-        Me.Button13.Location = New System.Drawing.Point(198, 365)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(84, 73)
-        Me.Button13.TabIndex = 15
-        Me.Button13.Text = "Button13"
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.btnEquals.Location = New System.Drawing.Point(198, 282)
+        Me.btnEquals.Name = "btnEquals"
+        Me.btnEquals.Size = New System.Drawing.Size(84, 73)
+        Me.btnEquals.TabIndex = 15
+        Me.btnEquals.Text = "="
+        Me.btnEquals.UseVisualStyleBackColor = True
         '
-        'Button14
+        'btnClear
         '
-        Me.Button14.Location = New System.Drawing.Point(288, 365)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(84, 73)
-        Me.Button14.TabIndex = 16
-        Me.Button14.Text = "Button14"
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.btnClear.Location = New System.Drawing.Point(288, 282)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(84, 73)
+        Me.btnClear.TabIndex = 16
+        Me.btnClear.Text = "C"
+        Me.btnClear.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btnEquals)
+        Me.Controls.Add(Me.btnDivide)
+        Me.Controls.Add(Me.btnSubtract)
+        Me.Controls.Add(Me.btnAdd)
+        Me.Controls.Add(Me.btn9)
         Me.Controls.Add(Me.txtDisplay)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.btnMultiply)
+        Me.Controls.Add(Me.btn8)
+        Me.Controls.Add(Me.btn7)
+        Me.Controls.Add(Me.btn6)
+        Me.Controls.Add(Me.btn5)
+        Me.Controls.Add(Me.btn4)
+        Me.Controls.Add(Me.btn3)
+        Me.Controls.Add(Me.btn2)
         Me.Controls.Add(Me.btn1)
         Me.Controls.Add(Me.btn0)
         Me.Name = "Form1"
@@ -223,19 +223,19 @@ Partial Class Form1
 
     Friend WithEvents btn0 As Button
     Friend WithEvents btn1 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
+    Friend WithEvents btn2 As Button
+    Friend WithEvents btn3 As Button
+    Friend WithEvents btn4 As Button
+    Friend WithEvents btn5 As Button
+    Friend WithEvents btn6 As Button
+    Friend WithEvents btn7 As Button
+    Friend WithEvents btn8 As Button
+    Friend WithEvents btnMultiply As Button
     Friend WithEvents txtDisplay As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
+    Friend WithEvents btn9 As Button
+    Friend WithEvents btnAdd As Button
+    Friend WithEvents btnSubtract As Button
+    Friend WithEvents btnDivide As Button
+    Friend WithEvents btnEquals As Button
+    Friend WithEvents btnClear As Button
 End Class
