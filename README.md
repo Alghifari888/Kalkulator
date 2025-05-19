@@ -75,10 +75,6 @@ Silakan:
 4. Push ke branch (`git push origin fitur/namafitur`)
 5. Buat Pull Request
 
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detail lengkap.
-
 ## ✨ Penghargaan
 
 Dikembangkan dengan ❤ oleh [Alghifari](https://github.com/Alghifari888) sebagai proyek edukasi open-source.
