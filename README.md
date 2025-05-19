@@ -8,6 +8,9 @@ Sebuah aplikasi kalkulator dasar yang dibangun menggunakan Visual Basic .NET (VB
 
 > *"Aku tidak berilmu; yang berilmu hanyalah DIA. Jika tampak ilmu dariku, itu hanyalah pantulan dari Cahaya-Nya."*
 
+## 🎥 Demo
+![Demo](./kalkulator.png)
+
 ## 🚀 Fitur Utama
 
 - **Operasi Dasar**:
