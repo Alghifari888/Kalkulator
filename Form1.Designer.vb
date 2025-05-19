@@ -39,6 +39,7 @@ Partial Class Form1
         Me.btnDivide = New System.Windows.Forms.Button()
         Me.btnEquals = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
+        Me.btnDot = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn0
@@ -124,12 +125,13 @@ Partial Class Form1
         '
         'btnMultiply
         '
+        Me.btnMultiply.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnMultiply.Location = New System.Drawing.Point(18, 282)
         Me.btnMultiply.Name = "btnMultiply"
         Me.btnMultiply.Size = New System.Drawing.Size(84, 73)
         Me.btnMultiply.TabIndex = 9
         Me.btnMultiply.Text = "*"
-        Me.btnMultiply.UseVisualStyleBackColor = True
+        Me.btnMultiply.UseVisualStyleBackColor = False
         '
         'txtDisplay
         '
@@ -149,54 +151,70 @@ Partial Class Form1
         '
         'btnAdd
         '
+        Me.btnAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnAdd.Location = New System.Drawing.Point(198, 205)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(84, 73)
         Me.btnAdd.TabIndex = 12
         Me.btnAdd.Text = "+"
-        Me.btnAdd.UseVisualStyleBackColor = True
+        Me.btnAdd.UseVisualStyleBackColor = False
         '
         'btnSubtract
         '
+        Me.btnSubtract.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnSubtract.Location = New System.Drawing.Point(288, 205)
         Me.btnSubtract.Name = "btnSubtract"
         Me.btnSubtract.Size = New System.Drawing.Size(84, 73)
         Me.btnSubtract.TabIndex = 13
         Me.btnSubtract.Text = "-"
-        Me.btnSubtract.UseVisualStyleBackColor = True
+        Me.btnSubtract.UseVisualStyleBackColor = False
         '
         'btnDivide
         '
+        Me.btnDivide.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnDivide.Location = New System.Drawing.Point(108, 282)
         Me.btnDivide.Name = "btnDivide"
         Me.btnDivide.Size = New System.Drawing.Size(84, 73)
         Me.btnDivide.TabIndex = 14
         Me.btnDivide.Text = "/"
-        Me.btnDivide.UseVisualStyleBackColor = True
+        Me.btnDivide.UseVisualStyleBackColor = False
         '
         'btnEquals
         '
+        Me.btnEquals.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnEquals.Location = New System.Drawing.Point(198, 282)
         Me.btnEquals.Name = "btnEquals"
         Me.btnEquals.Size = New System.Drawing.Size(84, 73)
         Me.btnEquals.TabIndex = 15
         Me.btnEquals.Text = "="
-        Me.btnEquals.UseVisualStyleBackColor = True
+        Me.btnEquals.UseVisualStyleBackColor = False
         '
         'btnClear
         '
+        Me.btnClear.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnClear.Location = New System.Drawing.Point(288, 282)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(84, 73)
+        Me.btnClear.Size = New System.Drawing.Size(43, 73)
         Me.btnClear.TabIndex = 16
         Me.btnClear.Text = "C"
-        Me.btnClear.UseVisualStyleBackColor = True
+        Me.btnClear.UseVisualStyleBackColor = False
+        '
+        'btnDot
+        '
+        Me.btnDot.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnDot.Location = New System.Drawing.Point(339, 282)
+        Me.btnDot.Name = "btnDot"
+        Me.btnDot.Size = New System.Drawing.Size(33, 73)
+        Me.btnDot.TabIndex = 17
+        Me.btnDot.Text = "."
+        Me.btnDot.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 387)
+        Me.ClientSize = New System.Drawing.Size(1081, 387)
+        Me.Controls.Add(Me.btnDot)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnEquals)
         Me.Controls.Add(Me.btnDivide)
@@ -238,4 +256,5 @@ Partial Class Form1
     Friend WithEvents btnDivide As Button
     Friend WithEvents btnEquals As Button
     Friend WithEvents btnClear As Button
+    Friend WithEvents btnDot As Button
 End Class
