@@ -202,7 +202,7 @@ Partial Class Form1
         'btnDot
         '
         Me.btnDot.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnDot.Location = New System.Drawing.Point(339, 282)
+        Me.btnDot.Location = New System.Drawing.Point(379, 282)
         Me.btnDot.Name = "btnDot"
         Me.btnDot.Size = New System.Drawing.Size(33, 73)
         Me.btnDot.TabIndex = 17
@@ -213,7 +213,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1081, 387)
+        Me.ClientSize = New System.Drawing.Size(424, 387)
         Me.Controls.Add(Me.btnDot)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnEquals)
